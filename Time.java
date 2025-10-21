@@ -10,6 +10,9 @@ public class Time {
         return secunds;
     }
     public void setSecunds(int secunds){
+        if (secunds < 0) {
+            throw new IllegalArgumentException("Секунды не могут быть отрицательными");
+        }
         this.secunds=secunds;
     }
     @Override
