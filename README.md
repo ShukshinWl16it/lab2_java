@@ -31,6 +31,7 @@ if(floorInHouse%10==1){
 else{
     return "дом с "+floorInHouse+" этажами";
 }
+
 <img width="291" height="92" alt="image" src="https://github.com/user-attachments/assets/ae736183-87e8-4d02-91ee-cb654a63940d" />
 
 # Задание 2
