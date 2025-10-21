@@ -54,6 +54,7 @@ public String toString(){
         return name+" работаетe в отделе "+departmentName+", начальник которого "+boss.getName();
     }
 }
+
 <img width="615" height="92" alt="image" src="https://github.com/user-attachments/assets/af14faa8-5217-4833-9328-e285cd4f9a39" />
 
 # Задание 3
@@ -112,4 +113,5 @@ public String toString(){
         return "Клац!";
     }
 }
+
 <img width="291" height="241" alt="image" src="https://github.com/user-attachments/assets/b56f1a18-8297-4f76-bffc-8bf9dc3169b3" />
