@@ -7,11 +7,10 @@ public class Gun {
         this.cartridges=cartridges;
     }
     public String toString(){
-        if(getCartridges()>0){
-            setCartridges(getCartridges()-1);
+        if (getCartridges() > 0){
+            setCartridges(getCartridges() - 1);
             return "Бах!";
-        }
-        else{
+        } else{
             return "Клац!";
         }
     }
@@ -19,6 +18,9 @@ public class Gun {
         return cartridges;
     }
     public void setCartridges(int cartridges){
+        if (cartridges < 0) {
+            throw new IllegalArgumentException("Количество патронов не может быть отрицательным");
+        }
         this.cartridges=cartridges;
     }
 
