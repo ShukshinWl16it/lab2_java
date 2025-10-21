@@ -12,8 +12,8 @@ int hours=secondsDay/3600;
 int minutes=(secondsDay%3600)/60;
 int seconds=secondsDay%60;
 return hours+":"+minutes+":"+seconds;
-<img width="399" height="89" alt="image" src="https://github.com/user-attachments/assets/2ad79347-b787-489f-a9c0-f07461c44430" />
 
+<img width="399" height="89" alt="image" src="https://github.com/user-attachments/assets/2ad79347-b787-489f-a9c0-f07461c44430" />
 
 # Задание 1
 ## Задача 5
@@ -90,6 +90,8 @@ public static void printEmployees(Employee[] employees){
 ### Алгоритм решения
 Все как и в предыдущем задании с домами, только изменено что поле теперь private final int floors для того чтобы нельзя было поменять значение уже существующего дома.
 Убран сеттер для того чтобы пользователь не менял количество этажей дома
+
+<img width="491" height="130" alt="image" src="https://github.com/user-attachments/assets/f714d347-7bc5-4abf-805e-c598e9e5806d" />
 
 # Задание 5
 ## Задача 1
